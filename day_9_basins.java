@@ -49,10 +49,9 @@ public class main2 {
 
 	
 	private static void findBasin(int[][] grid, int x, int y) {
-		{
+	{
 			// If OOB or on a "mountain"(9) -> return
-		    if ( y < 0 || x <0 || x>=grid.length || y>=grid.length ||check[x][y]==true )
-		        return;
+		    if ( y < 0 || x <0 || x>=grid.length || y>=grid.length ||check[x][y]==true ) return;
 		    if(grid[x][y]==9)return;
 		    
 		    // Else set cell as visited and count it for current basin
@@ -64,8 +63,8 @@ public class main2 {
 		    findBasin(grid, x-1, y);
 		    findBasin(grid, x, y+1);
 		    findBasin(grid, x, y-1);
-		}
 	}
+}
 	// modified to include points.add() ptB
 	// awful code >_>
 	private static int findA(int[][] grid) {
