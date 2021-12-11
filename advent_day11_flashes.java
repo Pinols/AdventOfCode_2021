@@ -14,7 +14,7 @@ import java.util.TreeMap;
 
 public class main2 {
 	static int steps=0;
-	static int currentStepFlashes=1;
+	static int currentStepFlashes=0;
 	static int flashesA=0;
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
