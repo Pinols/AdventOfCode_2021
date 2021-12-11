@@ -11,7 +11,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-
 public class main2 {
 	static List<Integer> is=new ArrayList<Integer>();
 	@SuppressWarnings("unused")
